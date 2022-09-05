@@ -1,15 +1,15 @@
-package ej3;
+package main;
 
+import paquete2.HolaMundo;
+import paquete2.HastaNunqui;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("Hello\nWorld");
-		System.out.println("Hello\tWorld");
-		System.out.println("Hello\\World");
-		System.out.println("\"Hello World\"");
-		System.out.println("Hello World\r");
-		System.out.println("Hello\b World");
+		HolaMundo helloworld = new HolaMundo();
+		helloworld.saludar();
+		HastaNunqui goodbye = new HastaNunqui();
+		goodbye.hastaNunqui();
+
 	}
 
 }
